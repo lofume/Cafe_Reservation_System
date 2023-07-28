@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--link to stylesheet-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/fixedstyling.css">
+        <title>Mrs K's Turtle Cafe Reservation System</title>
+    </head>
+    <body>
+        <div id="nav">
+            <nav> 
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+            </nav>
+        </div>
+        <div>
+            <section id = "reservation-information">
+                <div><h1>Mrs K's Turtle Cafe Reservation System</h1></div>
+            </section>
+        </div>
+        <div>
+            <section id = "summary">
+                <div><h2>Summary</h2></div>
+                <p>
+                    In order to use this system, please select an employee to go to there profile. From there you can click the 
+                    links in the employee's profile to view the customer's reservation details. 
+                </p>
+            </section>
+        </div>
+        <div>
+            <section id = "form">
+                    <label for="emp">Select employee name to proceed:</label>
+                    <select id="chooseEmp">
+                        <option id="user">Select Employee</option>
+                        <option value="MrsK">Mrs. K</option>
+                        <option value="Ralph">Ralph</option>
+                        <option value="Trudy">Trudy</option>
+                        <option value="Karen">Karen</option>
+                        <option value="Fredrik">Fredrik</option>
+                    </select>
+                    <button id="submit">Submit</button>
+            </section>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+    <footer id="foot">
+        <p>Group 3 Project - Mrs.K Café Dashboard, 2022</p> 
+    </footer>
+</html>
